@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-rubik: 'Rubik', sans-serif;
+  --font-jakarta: 'Plus Jakarta Sans', sans-serif;
+  --primary: #2F648D;
+  --secondary: #739AB9;
+  --accent: #E36619;
+  --background-primary: #AFD2EF;
+  --background-secondary: #FBF0D8;
+  --background-accent: #FFECC3;
+}
+
+body {
+  font-family: var(--font-jakarta);
+  color: var(--primary);
+  margin: 0;
+  padding: 0;
+}
+
+.heading-01 {
+  font-family: var(--font-rubik);
+  color: var(--primary);
+  font-size: 2.5rem;
+  font-weight: 700;
+  line-height: 1.2;
+}
+
+.subtitle-01 {
+  font-family: var(--font-rubik);
+  color: var(--secondary);
+  font-size: 1.5rem;
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+.bg-primary {
+  background-color: var(--background-primary);
+}
+
+.bg-secondary {
+  background-color: var(--background-secondary);
+}
+
+.bg-accent {
+  background-color: var(--background-accent);
+}
+
+.color-accent {
+  color: var(--accent);
+}
