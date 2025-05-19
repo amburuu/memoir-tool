@@ -9,7 +9,7 @@
   --secondary: #739AB9;
   --accent: #E36619;
   --background-primary: #AFD2EF;
-  --background-secondary: #FBF0D8;
+  --background-secondary: #DFF4FF;
   --background-accent: #FFECC3;
 }
 
@@ -17,7 +17,7 @@ body {
   font-family: var(--font-jakarta);
   color: var(--primary);
   margin: 0;
-  padding: 0;
+  padding: 12px;
 }
 
 .heading-01 {
@@ -36,6 +36,15 @@ body {
   line-height: 1.2;
 }
 
+.keywords {
+  font-style: italic;
+  color: var(--accent);
+  font-size: 1rem;
+  font-weight: 300;
+  line-height: 1.2;
+}
+
+
 .bg-primary {
   background-color: var(--background-primary);
 }
@@ -50,4 +59,12 @@ body {
 
 .color-accent {
   color: var(--accent);
+}
+
+.section {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  width: 60vw;
+  margin: 40px auto;
 }
